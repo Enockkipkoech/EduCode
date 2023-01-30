@@ -275,7 +275,7 @@ function CollectStringsRecursive(obj){
   return stringsArray;
 };
 
-let _obj3 = {
+let _objNested= {
   Name:"The Nodes G",
   Age: 24,
   Locale:"Kales",    
@@ -288,8 +288,6 @@ let _obj3 = {
   },
   },
  
-  }
+  }  
 
-  
-
-CollectStringsRecursive(_obj3)
+CollectStringsRecursive(_objNested)
