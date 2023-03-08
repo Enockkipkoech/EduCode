@@ -1,0 +1,21 @@
+// BUILD-IN JS SORTING ALGO
+function sort(arr) {
+	return arr.sort();
+}
+sort(["b", "d", "a"]);
+
+// SORT 2 -NUMBERS
+function numberCompare(num1, num2) {
+	return num1 - num2;
+}
+
+[2, 7, 4, 70, 34].sort(numberCompare);
+
+// Sort by length
+function compareByLen(str1, str2) {
+	return str1.length - str2.length;
+}
+
+["Data Structures", "Enock", "golf", "Agorithms", "Valentines"].sort(
+	compareByLen,
+);
