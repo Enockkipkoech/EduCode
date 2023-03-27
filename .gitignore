@@ -1,3 +1,5 @@
+node_modules/
+./node_modules/
 /Authe_Autho_sec/.env
 /Authe_Autho_sec/node_modules
 
